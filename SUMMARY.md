@@ -10,7 +10,7 @@
   * [API Key](security-1/api-key.md)
   * [API Secret](security-1/api-secret.md)
 * [API List](api-list-1/README.md)
-  * [Initiate Payment](api-list-1/initiate-payment.md)
+  * [Send Token](api-list-1/initiate-payment.md)
   * [Submit Payment Information](api-list-1/submit-payment-information.md)
   * [Requery](api-list-1/requery.md)
   * [Refund](api-list-1/refund.md)
