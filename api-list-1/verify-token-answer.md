@@ -43,7 +43,7 @@ Used to verify the answer provided by the user.
 
 | Remarks | Sample |
 | :--- | :--- |
-| The country dialing code, without leading symbols. | 123456789 |
+| The country dialing code, without leading symbols. | 60 |
 
 * contact\_no: string \(32\)
 
@@ -51,7 +51,7 @@ Used to verify the answer provided by the user.
 | :--- | :--- |
 | The contact number without country dialing code and no symbols / space. | 123456789 |
 
-* answer: string
+* answer: string \(6\)
 
 | Remarks | Sample |
 | :--- | :--- |
@@ -82,5 +82,6 @@ The data involved in generating the signature for this API are:
 * api\_key user\_id
 * reference
 * contact\_no\_country\_dialing\_code
-* contact\_no answer
+* contact\_no
+* answer
 

@@ -11,43 +11,67 @@ Used to send/resend a verification token to the user and start the verification 
 
 * action `required` : string \(32\)
 
-| Remark | **Sample** |
+| Remarks | **Sample** |
 | :--- | :--- |
 | The action of this call, must be hardcoded to “send-token” | send-token |
 
 * timestamp `required` : timestamp \(32\)
 
-| Remark | **Sample** |
+| Remarks | **Sample** |
 | :--- | :--- |
 | The timestamp for this API call. | 1539677150 |
 
 * api\_key `required`: string \(32\)
 
-| Remark | **Sample** |
+| Remarks | **Sample** |
 | :--- | :--- |
 | Pipwave-assigned merchant’s API key. | sdvdas23t3btg34bhb |
 
 * user\_id `required` : string \(32\)
 
-| Remark | **Sample** |
+| Remarks | **Sample** |
 | :--- | :--- |
 | The user ID owning the phone number for verification. | 505315 |
 
 * contact\_no\_country\_dialing\_code `required`: string \(5\)
 
-| Remark | Sample |
+| Remarks | Sample |
 | :--- | :--- |
 | The country dialing code, without leading symbols. | 60 |
 
 * contact\_no: string \(32\)
 
-| Remark | Sample |
+| Remarks | Sample |
 | :--- | :--- |
 | The contact number without country dialing code and no symbols / space. | 123456789 |
 
 ## Response
 
 **Format:** POST data
+
+* status: string \(5\)
+
+| Remarks | Sample |
+| :--- | :--- |
+| Status of the request. Refer to appendix for list of possible values. | 200 |
+
+* message: string \(255\)
+
+| Remarks | Sample |
+| :--- | :--- |
+| Error message, if any | - |
+
+* reference: integer
+
+| Remarks | Sample |
+| :--- | :--- |
+| The ID of the session, to be echo-ed when calling verify-token-answer API | - |
+
+* seconds\_till\_resend: integer
+
+| Remarks | Sample |
+| :--- | :--- |
+| If too frequent send/resend request is received, this value will be returned, along with a different status | - |
 
 {% api-method method="get" host="" path="" %}
 {% api-method-summary %}
