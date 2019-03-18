@@ -99,10 +99,10 @@ Sample: 200
 
 The data involved in generating the signature for this API are: 
 
-* `timestamp`
-* `action`
-* `api_key`
-* `user_id`
-* `contact_no_country_dialing_code`
-* `contact_no`
+* timestamp
+* action
+* api\_key
+* user\_id
+* contact\_no\_country\_dialing\_code
+* contact\_no
 

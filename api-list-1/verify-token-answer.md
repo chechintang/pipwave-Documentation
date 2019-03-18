@@ -17,10 +17,10 @@ Used to verify the answer provided by the user.
 
 The data involved in generating the signature for this API are: 
 
-* `timestamp`
-* `action`
-* `api_key user_id`
-* `reference`
-* `contact_no_country_dialing_code`
-* `contact_no answer`
+* timestamp
+* action
+* api\_key user\_id
+* reference
+* contact\_no\_country\_dialing\_code
+* contact\_no answer
 

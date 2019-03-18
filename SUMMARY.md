@@ -1,7 +1,6 @@
 # Table of contents
 
 * [pipwave Phone Verification](README.md)
-* [Table of Content](table-of-content.md)
 * [Revision](overview.md)
 * [URL](url.md)
 * [Security](security-1/README.md)
