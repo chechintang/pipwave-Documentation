@@ -1,0 +1,4 @@
+# Response
+
+**Format:** JSON
+

@@ -1,2 +1,0 @@
-# Submit Payment Information
-

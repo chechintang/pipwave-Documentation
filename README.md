@@ -1,6 +1,11 @@
-# The pipwave Documentation
+# pipwave Phone Verification
 
-Welcome to pipwave Online Documentation which will help you integrate pipwave’s latest payment solution.
+## The Phone Verification Solution
+
+### API integration guide
 
 
+
+Version 0.1   
+2019-01-16
 

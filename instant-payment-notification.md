@@ -1,2 +1,0 @@
-# Instant Payment Notification
-
