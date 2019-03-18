@@ -17,8 +17,6 @@ Used to send/resend a verification token to the user and start the verification 
 
 ---
 
-
-
 * timestamp `required` : timestamp \(32\)
 
 | Remark | **Sample** |
