@@ -15,8 +15,6 @@ Used to send/resend a verification token to the user and start the verification 
 | :--- | :--- |
 | The action of this call, must be hardcoded to “send-token” | send-token |
 
----
-
 * timestamp `required` : timestamp \(32\)
 
 | Remark | **Sample** |
