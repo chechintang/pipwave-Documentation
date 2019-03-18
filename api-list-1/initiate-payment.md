@@ -9,15 +9,17 @@ Used to send/resend a verification token to the user and start the verification 
 
 **Format:** POST data
 
-* action **`required`** : string \(32\)
+* action `required` : string \(32\)
 
-| Remark |  **Sample** |
+| Remark | **Sample** |
 | :--- | :--- |
 | The action of this call, must be hardcoded to “send-token” | send-token |
 
 ---
 
-* timestamp **`required`** : timestamp \(32\)
+
+
+* timestamp `required` : timestamp \(32\)
 
 | Remark | **Sample** |
 | :--- | :--- |

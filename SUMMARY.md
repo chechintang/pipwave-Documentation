@@ -16,7 +16,3 @@
 * [Appendix](appendix/README.md)
   * [API Status Code](appendix/api-status-code.md)
 
-## Security
-
-## API List
-
